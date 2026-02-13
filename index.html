@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Site_Denemesi[1]</title>
+</head>
+<body style="background-color:black; color:white;">
+
+    
+    <div style="position: relative; height: 300px;">
+        <h1 style=
+        "position:absolute;
+        top:5vh;
+        left:50%;
+        transform: translate(-50%, -50%);"
+        >Merhaba Dünya!!</h1>
+
+        <h2 style="
+        position:absolute;
+        top:20vh;
+        left:40%;
+        transform: translate(-50%, -50%);"
+        >HELLO WORLD!!</h2>
+    </div>
+
+    <div style="
+    position: absolute;
+    top: 35vh;
+    left:50%;
+    transform: translate(-50%, -50%);
+    ">
+        <button onclick="metin()">Tıkla</button>
+        <input type="text" id="isim">
+    </div>
+    
+
+    <div style="
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    color: white;
+    padding: 20px;
+    ">
+    +</div>
+
+    
+<script>
+    function metin() {
+        let input = document.getElementById("isim");
+        alert(input.value);
+    }
+</script>
+</body>
+</html>
